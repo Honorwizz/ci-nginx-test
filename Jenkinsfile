@@ -16,7 +16,7 @@ pipeline {
                 checkout([
                     $class: 'GitSCM',
                     branches: [[name: '*/main']],
-                    userRemoteConfigs: [[url: 'https://github.com/YOUR_GITHUB_USER/ci-nginx-test.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Honorwizz/ci-nginx-test.git']]
                 ])
             }
         }
